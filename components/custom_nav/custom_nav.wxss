@@ -1,0 +1,57 @@
+/* components/custom_nav/custom_nav.wxss */
+.custom_nav {
+  width: 100%;
+  background: #fff;
+}
+
+.custom_nav_box {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+}
+.custom_nav_bar{
+  position: relative;
+}
+.custom_nav_box .nav_title {
+  font-size: 34rpx;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  max-width: 360rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-weight: 600;
+}
+
+.custom_nav_box .custom_nav_icon {
+  position: absolute;
+  border: .5rpx solid rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  display: flex;
+  padding: 0 10rpx
+}
+.custom_nav_icon .gobank {
+  background: url('https://www.easyicon.net/api/resizeApi.php?id=1225467&size=128') no-repeat center center;
+  background-size: 60%;
+  padding:0 5px;
+  margin: 4px 0;
+}
+.custom_nav_icon .home {
+  background: url('https://www.easyicon.net/api/resizeApi.php?id=1223065&size=128') no-repeat center center;
+  background-size: 60%;
+  padding:0 5px;
+  margin: 4px 0;
+  border-left: 1px solid rgba(0, 0, 0, .1)
+}
+.custom_nav .search {
+  font-size: 24rpx; color: #9B9B9B;
+  position: absolute;
+  background: #F8F8F8;
+  text-align: center;
+}

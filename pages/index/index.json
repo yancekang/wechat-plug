@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小程序插件集",
+  "backgroundColor": "#eeeeee",
+  "usingComponents": {
+    "cell": "../../components/common/cell/cell"
+  }
+}

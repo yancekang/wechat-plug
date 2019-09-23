@@ -1,0 +1,11 @@
+.cell_item {
+  padding: 30rpx;
+  background: #fff;
+  margin: 20rpx 0;
+  font-size: 30rpx
+}
+.cell_item .cell_tips {
+  font-size: 28rpx;
+  color: #999;
+  margin-top: 10rpx;
+}

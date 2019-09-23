@@ -1,0 +1,6 @@
+<view class="container">
+  当前位置：
+  <view>纬度: {{location.latitude}}</view>
+  <view>经度: {{location.longitude}}</view>
+  当前所在地：{{location_city}}
+</view>

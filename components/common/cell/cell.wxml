@@ -1,0 +1,6 @@
+<view class="cell_item" catchtap="goUrl">
+  <view class="cell_title">{{title}}</view>
+  <view class="cell_tips">
+    {{tips}}
+  </view>
+</view>

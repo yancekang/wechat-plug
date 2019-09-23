@@ -1,0 +1,7 @@
+<custom_nav navbarData="{{navbarData}}"></custom_nav>
+
+<view>
+  <rich-text>
+    <!-- <pre>navbarData<pre> -->
+  </rich-text>
+</view>
