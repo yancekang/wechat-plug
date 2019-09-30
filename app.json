@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/custom/custom",
-    "pages/location/location"
+    "pages/location/location",
+    "pages/unit/calendar/calendar",
+    "pages/unit/select_city/select_city",
+    "pages/unit/pace_taking/pace_taking"
   ],
   "window": {
     "backgroundTextStyle": "light",

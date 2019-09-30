@@ -6,11 +6,21 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+		"enhance": false,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.2",
@@ -43,9 +53,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/index/index",
-					"pathName": "pages/custom/custom",
+					"id": 0,
+					"name": "pages/unit/pace_taking/pace_taking",
+					"pathName": "pages/unit/pace_taking/pace_taking",
+					"query": "",
 					"scene": null
 				}
 			]
