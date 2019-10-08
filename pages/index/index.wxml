@@ -7,7 +7,6 @@
       <!-- <view><navigator url="/pages/log/log" hover-class="none">更新日志</navigator></view> -->
     </view>
   </view>
-  <official-account bindload="asdf" style="height:84rpx; width:400rpx;"></official-account>
   <cell title="页面自定义导航左边按钮" tips="微信头部导航栏" to="/pages/custom/custom"></cell>
   <cell title="获取当前详细地址" tips="使用当前位置，通过微信地图开放平台获取地理位置" to="/pages/location/location"></cell>
   <!-- <cell title="分享海报" tips="生成分享图片，保存到本地" to="/pages/location/location"></cell> -->
