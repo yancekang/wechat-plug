@@ -1,0 +1,21 @@
+.logo {
+  padding: 50rpx;
+}
+.logo image{
+    width: 100rpx; height: 100rpx;
+    display: block;
+    margin: auto;
+}
+.logo .slog {
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.logo .tool {
+  display: flex;
+  font-size: 24rpx;
+  color: #007fff;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}

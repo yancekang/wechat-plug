@@ -5,7 +5,8 @@
     "pages/location/location",
     "pages/unit/calendar/calendar",
     "pages/unit/select_city/select_city",
-    "pages/unit/pace_taking/pace_taking"
+    "pages/unit/pace_taking/pace_taking",
+    "pages/log/log"
   ],
   "window": {
     "backgroundTextStyle": "light",
