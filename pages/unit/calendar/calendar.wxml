@@ -1,7 +1,5 @@
 <view class="container">
-  <view class="content">
-    插件支持 1900 年 1 月 ~ 2099 年 12 月这两百年间的公历和农历显示，插件提供了丰富的可配置属性，包括日期的显示方式、选择范围、是否显示农历等，可自定义来适配不同的使用场景。
-  </view>
+  
   <view class="calendar_box">
     <view>{{year}}年{{month}}月{{day}}日</view>
     <picker-view class="calendar" indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
