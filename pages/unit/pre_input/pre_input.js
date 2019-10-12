@@ -1,37 +1,30 @@
-// pages/log/log.js
+// pages/unit/pre_input/pre_input.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    log: [
-      {
-        version: '1.0.1',
-        years: '2019',
-        time: '10.12',
-        des: [
-          '新增订单操作功能',
-          '新增输入框输入提示',
-          '新增时间线',
-          '修改城市选择描述错误',
-        ]
-      },
-      {
-        version: '1.0.0',
-        years: '2019',
-        time: '10.09',
-        des: [
-          '新增页面自定义顶部',
-          '新增获取地理位置',
-          '新增城市选择',
-          '新增日历控件',
-          '插件集发布第一版'
-        ]
-      }
-    ]
+    pre_list: []
   },
-
+  setKey (e) {
+    this.setData({key: e.detail.value})
+    if (e.detail.value) {
+      var pre_list = []
+      for (var i = 0; i < 3; i++) {
+        pre_list.push(e.detail.value + ' ' + i + i)
+      }
+      this.setData({ pre_list: pre_list })
+    } else {
+      this.setData({pre_list: []})
+    }
+  },
+  goSearch(e) {
+    wx.showToast({
+      icon: 'none',
+      title: '搜索：' + e.currentTarget.dataset.key,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

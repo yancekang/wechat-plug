@@ -1,1 +1,52 @@
-/* pages/log/log.wxss */
+.log {
+  background: #fff;
+  padding: 30rpx;
+}
+.log .log_item {
+  display: flex;
+}
+.log .log_item .time {
+  padding: 0 20rpx 0 0;
+  font-size: 26rpx;
+  text-align: center;
+  font-weight: 300;
+}
+.log .log_item .time .year{
+  font-size: 24rpx;
+  color: #ccc;
+}
+.log .log_item .time .date {
+  font-size: 28rpx; 
+  color: #333;
+}
+.log_item .hr {
+  width: 2rpx;
+  background: #e4e7ed;
+  position: relative;
+}
+.log_item .hr::after {
+  content: ''; display: block;
+  height: 20rpx; width: 20rpx;
+  position: absolute;
+  background: #e4e7ed;
+  border-radius: 50%;
+  top: 0; left: -10rpx;
+}
+.log_item .content {
+  padding: 0 30rpx 50rpx;
+  flex: 1;
+}
+.log_item .content .title{
+  font-size: 28rpx;
+}
+.log_item .content .content_box {
+  margin-top: 10rpx;
+}
+.log_item .content .content_item {
+  font-size: 24rpx;
+  color: #999999;
+  margin-top: 5rpx;
+}
+.content_item text{
+  padding-right: 10rpx;
+}

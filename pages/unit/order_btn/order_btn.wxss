@@ -1,0 +1,34 @@
+.order {
+  display: flex;
+  flex-direction: column;
+}
+.order .order_main {
+  flex-grow: 1;
+  height: calc(100vh - 96rpx);
+}
+.order_lsit  {
+  height: 110vh; line-height: 100rpx;
+  background: #ccc;
+}
+
+.order .order_btn {
+  height: 96rpx; line-height: 96rpx;
+  background: #fff;
+}
+
+.order .order_btn .btns {
+  display: flex;
+}
+.order .order_btn .btns .btn {
+  flex-grow: 1;
+  text-align: center;
+}
+.btns .btn.primary {
+  background: #ee0a24; color: #fff;
+}
+.btns .btn.info {
+  background: #1989fa;
+}
+.btns .btn.warning {
+  background: #ff976a;
+}

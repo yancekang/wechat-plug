@@ -50,12 +50,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/unit/pace_taking/pace_taking",
-					"pathName": "pages/unit/pace_taking/pace_taking",
+					"name": "pages/log/log",
+					"pathName": "pages/log/log",
 					"query": "",
 					"scene": null
 				},

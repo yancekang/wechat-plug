@@ -4,7 +4,10 @@
     <view class="slog">小程序插件集</view>
     <view class="tool">
       <view catchtap="copyGitHub">项目地址</view>
-      <!-- <view><navigator url="/pages/log/log" hover-class="none">更新日志</navigator></view> -->
+      <view><navigator url="/pages/log/log" hover-class="none">更新日志</navigator></view>
+      <view class="feed">
+        <button open-type="contact" hover-class="none">问题反馈</button>
+      </view>
     </view>
   </view>
   <cell title="页面自定义导航左边按钮" tips="微信头部导航栏" to="/pages/custom/custom"></cell>
@@ -13,4 +16,7 @@
   <!-- <cell title="倒计时" tips="倒计时插件，支持时分秒，结束回调，可用作秒杀、验证码倒计时等" to="/pages/location/location"></cell> -->
   <cell title="城市选择" tips="地区字母索引，类似美团城市选择" to="/pages/unit/select_city/select_city"></cell>
   <cell title="日历控件" tips="插件支持 1900 年 1 月 ~ 2099 年 12 月这两百年间的公历和农历显示" to="/pages/unit/calendar/calendar"></cell>
+  <cell title="订单操作" tips="产品详情多个按钮自适应布局" to="/pages/unit/order_btn/order_btn"></cell>
+  <cell title="输入框输入提示" tips="功能类似于淘宝搜索" to="/pages/unit/pre_input/pre_input"></cell>
+  <cell title="时间线" tips="可用作物流动态，事件处理流程等" to="/pages/log/log"></cell>
 </view>

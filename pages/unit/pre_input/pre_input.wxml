@@ -1,0 +1,15 @@
+<view class="pre_page">
+  <view class="input_box">
+    <input bindinput="setKey"></input>
+  </view>
+  <view class="result">搜索结果</view>
+  <view class="pre_input" wx:if="{{pre_list.length}}">
+    <scroll-view class="pre_input_s" scroll-y>
+      <view class="per_input_box">
+        <view class="per_input_item" wx:for="{{pre_list}}" wx:key="{{index}}" data-key="{{item}}" catchtap="goSearch">{{item}}
+          <view class="icon" data-key="{{item}}" catchtap="setInputKey"></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="order">
+  <scroll-view class="order_main" scroll-y>
+    <view class="order_lsit">
+      
+    </view>
+  </scroll-view>
+  <view class="order_btn">
+    <view class="btns">
+      <view class="btn">
+        确认收货
+      </view>
+      <view class="btn primary">
+        我要催单
+      </view>
+      <view class="btn info">
+        物流信息
+      </view>
+      <view class="btn warning">
+        申请退款
+      </view>
+    </view>
+  </view>
+</view>

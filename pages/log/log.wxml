@@ -1,2 +1,15 @@
-<!--pages/log/log.wxml-->
-<text>pages/log/log.wxml</text>
+<view class="log">
+  <view class="log_item" wx:for="{{log}}" wx:for-item="log" wx:key="{{index}}">
+    <view class="time">
+      <view class="date">{{log.time}}</view>
+      <view class="year">{{log.years}}</view>
+    </view>
+    <view class="hr"></view>
+    <view class="content">
+      <view class="title">{{log.version}}</view>
+      <view class="content_box">
+        <view class="content_item" wx:for="{{log.des}}" wx:key="{{index}}"><text>•</text>{{item}}</view>
+      </view>
+    </view>
+  </view>
+</view>

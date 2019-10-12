@@ -1,6 +1,12 @@
 /**app.wxss**/
+@import './style/SourceHanSansCN.wxss';
+@import './style/fonts.wxss';
+
 page {
   background: #f8f8f8;
+}
+view, text {
+  font-family: "DIN","SourceHanSansCN";
 }
 .container {
   padding: 30rpx;

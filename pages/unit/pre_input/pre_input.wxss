@@ -1,0 +1,40 @@
+.pre_page {
+  position: relative;
+}
+.pre_page .input_box{
+  background: #fff;
+  padding: 30rpx;
+}
+.result {
+  text-align: center;
+  line-height: 100rpx;
+}
+.pre_page .input_box input{
+  border: 1rpx solid #ccc;
+  height: 60rpx;
+  padding:0 10rpx;
+  border-radius: 15rpx;
+  font-size: 24rpx;
+}
+.pre_page .pre_input {
+  position: absolute;
+  /* background: red; */
+  width: 100vw;
+  height: calc(100vh - 100rpx);
+  left: 0;right: 0;
+  top: 100rpx;
+  background: #fff;
+}
+.pre_input .pre_input_s {
+  height: 100%;
+}
+
+.pre_input_s .per_input_box {
+  padding:0 30rpx;
+}
+.pre_input_s .per_input_box .per_input_item{
+  height: 80rpx; line-height: 80rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+  color: #999999; font-size: 28rpx;
+  position: relative;
+}

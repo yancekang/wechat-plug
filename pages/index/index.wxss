@@ -19,3 +19,12 @@
   justify-content: space-around;
   margin-top: 30rpx;
 }
+.tool .feed button {
+  font-size: 24rpx;
+  color: #007fff;
+  padding: 0; margin: 0;
+  border: none; line-height: normal;
+}
+.tool .feed button::after {
+  border: 0; 
+}

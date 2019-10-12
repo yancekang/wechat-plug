@@ -5,7 +5,7 @@
         <view class="gobank" wx:if="{{navbarData.gobank}}" catchtap="_goBack" style="height:{{navbarBtn.height - 10}}px;width:{{navbarBtn.height - 10}}px;"></view>
         <view class="home" wx:if="{{navbarData.gohome}}" catchtap="_goHome" style="height:{{navbarBtn.height -10 }}px;width:{{navbarBtn.height - 10}}px;"></view>
       </view>
-      <view class="nav_title" wx:if="{{!navbarData.has_search}}" style="height:{{cusnavH}}px; line-height:{{cusnavH}}px;">组件目录</view>
+      <view class="nav_title" wx:if="{{!navbarData.has_search}}" style="height:{{cusnavH}}px; line-height:{{cusnavH}}px;">页面自定义导航左边按钮</view>
       <view class="search" style="height:{{navbarBtn.height - 2}}px; line-height:{{navbarBtn.height - 2}}px;top:{{navbarBtn.top}}px; left:{{navbarBtn.right}}px; width:{{searchW}}px; border-radius: {{navbarBtn.height / 2}}px" wx:if="{{navbarData.has_search}}">加入会员，99.99%的商品都有返利哦</view>
     </view>
   </view>
