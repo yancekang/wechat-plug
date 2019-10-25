@@ -3,12 +3,15 @@
     "pages/index/index",
     "pages/custom/custom",
     "pages/location/location",
+    "pages/unit/date/date",
     "pages/unit/calendar/calendar",
     "pages/unit/select_city/select_city",
     "pages/unit/pace_taking/pace_taking",
     "pages/log/log",
     "pages/unit/order_btn/order_btn",
-    "pages/unit/pre_input/pre_input"
+    "pages/unit/pre_input/pre_input",
+    "pages/unit/poster/poster",
+    "pages/unit/car_number/car_number"
   ],
   "window": {
     "backgroundTextStyle": "light",

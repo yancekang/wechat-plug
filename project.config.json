@@ -49,13 +49,17 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/log/log",
-					"pathName": "pages/log/log",
+					"name": "pages/unit/date/date",
+					"pathName": "pages/unit/poster/poster",
 					"query": "",
 					"scene": null
 				},

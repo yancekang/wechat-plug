@@ -1,0 +1,8 @@
+/* pages/unit/calendar/calendar.wxss */
+.calendar_box {
+  margin-top: 50rpx;
+  text-align: center;
+}
+.calendar .item{
+  height: 50px; line-height: 50px; text-align: center;
+}

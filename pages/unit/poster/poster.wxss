@@ -1,0 +1,8 @@
+.poster {
+  padding: 30rpx;
+}
+.poster_box {
+  height: 1000rpx;
+  /* background: red; */
+  border: 1rpx solid #f8f8f8;
+}
