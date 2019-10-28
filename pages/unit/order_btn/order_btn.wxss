@@ -6,6 +6,9 @@
   flex-grow: 1;
   height: calc(100vh - 96rpx);
 }
+.order .order_main.isX {
+  height: calc(100vh - 96rpx - 34rpx);
+}
 .order_lsit  {
   height: 110vh; line-height: 100rpx;
   background: #ccc;
@@ -15,7 +18,9 @@
   height: 96rpx; line-height: 96rpx;
   background: #fff;
 }
-
+.order .order_btn.isX {
+  padding-bottom: 34rpx;
+}
 .order .order_btn .btns {
   display: flex;
 }

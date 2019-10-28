@@ -1,10 +1,10 @@
 <view class="order">
-  <scroll-view class="order_main" scroll-y>
+  <scroll-view class="order_main {{isX ? 'isX' : ''}}" scroll-y>
     <view class="order_lsit">
       
     </view>
   </scroll-view>
-  <view class="order_btn">
+  <view class="order_btn {{isX ? 'isX' : ''}}">
     <view class="btns">
       <view class="btn">
         确认收货
