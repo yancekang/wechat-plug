@@ -13,7 +13,7 @@ Page({
   },
   copyGitHub(){
     wx.setClipboardData({
-      data: 'https://git.weixin.qq.com/yangon/wechat-plug.git',
+      data: 'https://github.com/yancekang/wechat-plug',
       success: function(){
         wx.showToast({
           icon: 'none',
