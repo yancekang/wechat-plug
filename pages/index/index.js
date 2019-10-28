@@ -1,10 +1,12 @@
+var app = new getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    is_show: false
   },
   asdf(e) {
     console.log(e)
@@ -38,7 +40,12 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    let v = wx.getStorageSync('v')
+    if (v === app.globalData.v) {
+      this.setData({is_show: false})
+    } else {
+      this.setData({ is_show: true })
+    }
   },
 
   /**

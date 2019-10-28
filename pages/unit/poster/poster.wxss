@@ -1,8 +1,75 @@
+.poster_page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
 .poster {
-  padding: 30rpx;
+  padding:0 30rpx;
 }
 .poster_box {
   height: 1000rpx;
-  /* background: red; */
+  background: #fff;
   border: 1rpx solid #f8f8f8;
+  background-size: contain;
+  position: relative;
+}
+.poster_top {
+  height: 800rpx;
+  background: #0B5FA5;
+  width: 590rpx;
+  color: #fff;
+  padding: 0 50rpx;
+  display: flex;
+  align-items: center;
+  font-size: 40rpx;
+  font-weight: 300;
+}
+
+.poster_box .poster_box_bottom {
+  height: 200rpx;
+  width: 630rpx;
+  color: #333;
+  text-align: center;
+  display: flex;
+  padding: 0 30rpx;
+  align-items: center;
+}
+
+.poster_box_bottom .user_img image {
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 50%;
+}
+.poster_box_bottom .user_info {
+  text-align: left; padding-left: 30rpx;
+}
+.poster_box_bottom .user_info .name{
+  font-size: 32rpx;
+}
+.poster_box_bottom .user_info .tips {
+  font-size: 28rpx;
+  color: #999;
+}
+.poster_box_bottom .qr_code {
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  font-size: 24rpx;
+}
+.poster_box_bottom .qr_code image {
+  height: 100rpx; width: 100rpx;
+}
+.btn {
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: #4671D5; color: #fff;
+}
+.canvas {
+  position: fixed;
+  left: -200vw;
+  /* background: red; */
+  height: 1000px; width: 690px;
+  transform: scale(.5);
+  transform-origin:left top;
 }

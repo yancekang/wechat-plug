@@ -1,5 +1,24 @@
-<view class="poster">
+<view class="poster_page">
+  <view class="poster">
   <view class="poster_box">
-    
+    <view class="poster_top">
+      <view class="yiyan">{{yiyan}}</view>
+    </view>
+    <view class="poster_box_bottom">
+      <view class="user_img">
+        <image src="https://cdn.ctoku.com/blog/3629472230.jpg"></image>
+      </view>
+      <view class="user_info">
+        <view class="name">科技男</view>
+        <view class="tips">邀请您使用微信小程序</view>
+      </view>
+      <view class="qr_code">
+        <image src="https://cdn.ctoku.com/blog/4275691247.jpg"></image>
+        <view>长按识别二维码</view>
+      </view>
+    </view>
+    <canvas class="canvas" canvas-id="my_canvas"></canvas>
   </view>
+  <view class="btn" catchtap="createCanvas">保存海报到相册</view>
+</view>
 </view>

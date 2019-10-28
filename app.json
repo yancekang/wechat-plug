@@ -10,8 +10,7 @@
     "pages/log/log",
     "pages/unit/order_btn/order_btn",
     "pages/unit/pre_input/pre_input",
-    "pages/unit/poster/poster",
-    "pages/unit/car_number/car_number"
+    "pages/unit/poster/poster"
   ],
   "window": {
     "backgroundTextStyle": "light",

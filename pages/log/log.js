@@ -1,4 +1,5 @@
 // pages/log/log.js
+var app = new getApp()
 Page({
 
   /**
@@ -6,6 +7,15 @@ Page({
    */
   data: {
     log: [
+      {
+        version: '1.0.2',
+        years: '2019',
+        time: '10.28',
+        des: [
+          '新增生成海报并保存到本地功能',
+          '修复订单操作功能适配iPhone X系列手机'
+        ]
+      },
       {
         version: '1.0.1',
         years: '2019',
@@ -36,7 +46,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.setStorageSync('v', app.globalData.v)
   },
 
   /**

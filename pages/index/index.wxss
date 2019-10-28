@@ -1,30 +1,42 @@
-.logo {
-  padding: 50rpx;
+.logo { 
+  padding: 50rpx; 
+} 
+.logo image{ 
+    width: 100rpx; height: 100rpx; 
+    display: block; 
+    margin: auto; 
+} 
+.logo .slog { 
+  text-align: center; 
+  font-size: 30rpx; 
+  line-height: 80rpx; 
+} 
+.logo .tool { 
+  display: flex; 
+  font-size: 24rpx; 
+  color: #007fff; 
+  align-content: space-around; 
+  justify-content: space-around; 
+  margin-top: 30rpx; 
+} 
+.tool .log_hot {
+  position: relative;
 }
-.logo image{
-    width: 100rpx; height: 100rpx;
-    display: block;
-    margin: auto;
+.tool .log_hot::after {
+  display: block; content: '';
+  height: 15rpx; width: 15rpx;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0; right: -10rpx;
+  font-size: 12rpx;
 }
-.logo .slog {
-  text-align: center;
-  font-size: 30rpx;
-  line-height: 80rpx;
-}
-.logo .tool {
-  display: flex;
-  font-size: 24rpx;
-  color: #007fff;
-  align-content: space-around;
-  justify-content: space-around;
-  margin-top: 30rpx;
-}
-.tool .feed button {
-  font-size: 24rpx;
-  color: #007fff;
-  padding: 0; margin: 0;
-  border: none; line-height: normal;
-}
-.tool .feed button::after {
-  border: 0; 
+.tool .feed button { 
+  font-size: 24rpx; 
+  color: #007fff; 
+  padding: 0; margin: 0; 
+  border: none; line-height: normal; 
+} 
+.tool .feed button::after { 
+  border: 0;  
 }
