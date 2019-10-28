@@ -5,9 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    yiyu: {
-      ciba: '给他一条鱼，你可以喂他一天；教他钓鱼，他周末就不会再来缠你了。'
-    },
+    yiyan:'',
     qr_img: '',
     user_img: ''
   },
@@ -19,7 +17,7 @@ Page({
     var that = this
     let canvasW = 690   //定义画布宽高，具体根据海报模板定义
     let canvasH = 1000
-    let yiyu = that.data.yiyu
+    let yiyan = that.data.yiyan
     var temp = "";
     var row = [];
     const ctx = wx.createCanvasContext('my_canvas')   // 获取绘图对象 my_canvas 为页面canvas的id
@@ -32,13 +30,13 @@ Page({
     //绘制每日一语
     ctx.setFontSize(40);
     ctx.setFillStyle("#fff")
-    for (var a = 0; a < yiyu.length; a++) {
-      if (ctx.measureText(temp).width < 630 && ctx.measureText(temp + (yiyu[a])).width <= 630) {
-        temp += yiyu[a];
+    for (var a = 0; a < yiyan.length; a++) {
+      if (ctx.measureText(temp).width < 630 && ctx.measureText(temp + (yiyan[a])).width <= 630) {
+        temp += yiyan[a];
       }//ctx.measureText(text).width  测量文本text的宽度
       else {
         row.push(temp);
-        temp = yiyu[a];
+        temp = yiyan[a];
       }
     }
     row.push(temp);
