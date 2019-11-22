@@ -8,6 +8,14 @@ Page({
   data: {
     log: [
       {
+        version: '1.0.3',
+        years: '2019',
+        time: '11.22',
+        des: [
+          '新增身份证拍摄取景框'
+        ]
+      },
+      {
         version: '1.0.2',
         years: '2019',
         time: '10.28',

@@ -21,4 +21,5 @@
   <cell title="输入框输入提示" tips="功能类似于淘宝搜索" to="/pages/unit/pre_input/pre_input"></cell>
   <cell title="时间线" tips="可用作物流动态，事件处理流程等" to="/pages/log/log"></cell>
   <cell title="小程序分享海报" tips="根据不同的用户生成不同的分享信息，这里不获取用户信息，将用户信息固定，需要的码友可以根据需要自行修改" to="/pages/unit/poster/poster"></cell>
+  <cell title="身份证拍摄取景框" tips="该功能仅供演示，不会保留及上传您的图片信息,请放心使用！" to="/pages/unit/camera/camera"></cell>
 </view>

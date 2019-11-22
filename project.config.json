@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"enhance": false,
 		"postcss": true,
@@ -58,8 +58,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/unit/date/date",
-					"pathName": "pages/unit/poster/poster",
+					"name": "pages/unit/camera/camera",
+					"pathName": "pages/unit/camera/camera",
 					"query": "",
 					"scene": null
 				},

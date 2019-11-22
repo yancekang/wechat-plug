@@ -1,0 +1,62 @@
+/* pages/unit/camera/camera.wxss */
+.camera_box {
+  height: 100vh; width: 100vw;
+  position: relative;
+}
+.camera {
+  height: 85vh; width: 100vw;
+  z-index: 1;
+}
+.id_m {
+  height: 85vh; width: 100vw;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: absolute;
+}
+.id_m .img {
+  width: 550rpx;
+  height: 900rpx;
+  display: block;
+  position: absolute;
+  left: 0; right: 0; margin: auto auto;
+  top: 0; bottom: 0;
+}
+.id_m .tips_txt {
+  transform:rotate(90deg);
+}
+.camera_box .action {
+  height: 15vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+.camera_box .takeBtn {
+  height: 120rpx; width: 120rpx; border-radius: 50%;
+  font-size: 24rpx;
+  background: url('https://cdn.ctoku.com/1123123123123e3241.png') no-repeat center;
+  background-size: contain;
+  border: none;
+}
+.camera_box .cancelBtn {
+  font-size: 24rpx;
+  height: 120rpx; width: 120rpx; border-radius: 50%;
+  background: url('https://cdn.ctoku.com/12311123342312231.png') no-repeat center;
+  background-size: contain;
+  border: none;
+}
+.camera_box .saveImg {
+  background: url('https://cdn.ctoku.com/1232123434231231231.png') no-repeat center;
+  font-size: 24rpx;
+  height: 120rpx; width: 120rpx; border-radius: 50%;
+  background-size: contain;
+  border: none;
+}
+.camera_box .takeBtn::after {
+  border: none;
+}
+
+.camera_img {
+  height: 85vh; width: 100%;
+}

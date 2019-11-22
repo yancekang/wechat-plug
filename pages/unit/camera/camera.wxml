@@ -1,0 +1,13 @@
+<view class="camera_box">
+  <camera class="camera" wx:if="{{!show}}" device-position="back" flash="off" binderror="error">
+    <cover-view class="id_m">
+      <cover-image class="img" src="https://cdn.ctoku.com/201910234221235312.png"></cover-image>
+    </cover-view>
+  </camera>
+  <image class="camera_img" src="{{src}}" wx:if="{{show}}"></image>
+  <view class="action">
+    <button class="takeBtn" type="primary" bindtap="takePhoto" wx:if="{{!show}}"></button>
+    <button class="saveImg" type="primary" bindtap="saveImg" wx:if="{{show}}"></button>
+    <button class="cancelBtn" wx:if="{{show}}" type="primary" bindtap="cancelBtn"></button>
+  </view>
+</view>

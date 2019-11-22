@@ -11,7 +11,7 @@ App({
   globalData: {
     userInfo: null,
     systeminfo:{},
-    v: '1.0.2',
+    v: '1.0.3',
     headerBtnPosi:{}
   }
 })
