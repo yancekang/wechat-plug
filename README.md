@@ -1,5 +1,10 @@
 微信小程序插件集
 
+### 项目地址：
+
+github: https://github.com/yancekang/wechat-plug
+gitee: https://gitee.com/yangon/wechat-plug
+
 ### 更新
 
 #### 1.0.2
